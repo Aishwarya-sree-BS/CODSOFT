@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --primary-color: #5c48ee;
+  --primary-color-dark: #0f1e6a;
+  --secondary-color: #f9fafe;
+  --text-color: #333333;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: var(--primary-color-dark);
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  nav {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav__logo a {
+    font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: 0.3s;
+
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .nav__links li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav__btn {
+    background: red;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+  
+  .section {
+    padding: 60px 30px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .one {
+    color: white;
+  }
+
+  .two {
+    color: rebeccapurple;
+  }
+  
+  
+  
+  
+  .heading__1 {
+    color: #0f1e6a;
+  }
+  
+  .heading__2 {
+    color: var(--primary-color);
+  }
+  
+  h2{
+    font-size: 2rem;
+    color: darkcyan;
+    margin-bottom: 10px;
+    }
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+  }
+  
+  .register-form input, .register-form button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .register-form button {
+    background: #2e3a59;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
